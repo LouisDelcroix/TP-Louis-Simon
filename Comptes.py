@@ -58,4 +58,28 @@ class Comptes:
         self.Password = mdp
 
 
-creer_compte()
+
+est_connecte=False
+
+def connecter():
+    mail=input("entrez votre mail")
+    if mail in #fichier_csv:
+        #index=utilisateur[index]
+        mdp=input("entrez votre mot de passe")
+        if mdp in #csv :
+            print("vous etes connecter")
+            est_connecte = True
+        else:
+            print("mot de passe invalide")
+    else: 
+        print("ce mail n'est associe a aucun compte")
+            
+
+
+
+def verif_compte():
+    cpt=input("avez vous un compte?")
+    if cpt=="oui" or "Oui" or "OUI":
+        connecter()
+    elif cpt =="non" or "Non" or "NON":
+        creer_compte()
