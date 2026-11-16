@@ -1,1 +1,2 @@
-def note
+def note():
+    cezz
